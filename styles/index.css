@@ -1,28 +1,40 @@
+
+
+@media(max-width:768px){
+    nav ul {
+        flex-direction: column;
+    }
+    nav li{
+        width: 100%;
+        padding: 10px;
+    }
+}
+
 ul {
     list-style: none;
     overflow: hidden;
     color: white;
     background-color: rgba(0, 0, 0, 0.2);
-   
-    
-    
+    margin-top: 0px;
+     
 }
+
 li {
     float: left;
-    padding: 10px 0px;
+    
 }
 
 li a {
-    padding-top: 10px;
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    display: block;
     text-decoration: none;
+    display: block;
     color: white;
-    margin-left: 150px;
-    margin-top: 0px;
-    padding: 1px 10px;
+    padding: 10px 4px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    font-family: Geneva;
+    
+    
+
 }
 li a:hover {
 color: red;
@@ -30,18 +42,9 @@ color: red;
 }
 
 
-.home {
-    background-color: powderblue;
-    padding-left: 70px;
-    margin-left: 7px;
-    border-radius: 10px;
-    width: 30px;
-    height: 30px;
-}
-
 
 body {
-    background-image: url(../images/Background.jpg);
+    background-image: url(../images/3d\ iage.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -52,6 +55,10 @@ body {
     text-align: right;
     margin: 20px;
     float: right;
+    border-radius: 200px;
+    
+    
+    
     
 }
 
@@ -64,22 +71,12 @@ background-color: darkmagenta;
 }
 .words {
     font-family: Geneva;
+    font-size: xx-large;
+    margin-left: 50px;
+
 }
 
-.logo {
-    background-color: #0077cc; /* Background color */
-    border-radius: 50%; /* Circular shape */
-    padding: 20px;
-    text-align: center;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-}
 
-.initials {
-    font-family: 'Arial', sans-serif; /* Font style */
-    font-size: 50px; /* Font size */
-    color: white; /* Text color */
-    font-weight: bold; /* Bold text */
-}
 .hover-enlarge {
     transition: transform 0.3s ease;
 }
@@ -92,22 +89,22 @@ background-color: darkmagenta;
     border-radius: 20px;
     padding-right: 40px; 
     font-size: larger;
+    padding-left: 40px ;
 
 }
 .button:hover {
     background-color: aliceblue;
     color: crimson;
 }
-.footer {
-    float: inline-end;
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding-bottom: 0;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5); 
+#name {
+    margin: auto;
+    padding-right: 50px;
+    font-weight: bolder;
+    margin-left: 20px;
+    margin-top: 8px;
+    color: orange;
+    font-size: x-large;
+    font-family: 'Lucida Grande';
 }
 
 

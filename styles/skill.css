@@ -1,0 +1,68 @@
+
+
+li {
+    list-style: none;
+    float: left;
+}
+
+
+
+.web {
+    width: 300px;
+    background-color: aqua;
+    height: 250px;
+    border-radius: 10px;
+    margin: 20px 20px;
+    padding: 20px 20px;
+    color: black;
+}
+
+.graphics {
+    width: 300px;
+    background-color: aqua;
+    height: 250px;
+    border-radius: 10px;
+    margin: 20px 20px;
+    padding: 20px 20px;
+    color: black;
+}
+
+.python {
+    width: 300px;
+    background-color: aqua;
+    height: 258px;
+    border-radius: 10px;
+    margin: 20px 20px;
+    padding: 20px 20px;
+    color: black;
+}
+
+.team {
+    width: 300px;
+    background-color: aqua;
+    height: 257px;
+    border-radius: 10px;
+    margin: 20px 20px;
+    padding: 20px 20px;
+    color: black;
+}
+
+.communication {
+    width: 300px;
+    background-color: aqua;
+    height: 257px;
+    border-radius: 10px;
+    margin: 20px 20px;
+    padding: 20px 20px;  
+    color: black;
+}
+    
+.comp-app{
+    width: 300px;
+    background-color: aqua;
+    height: 257px;
+    border-radius: 10px;
+    margin: 20px 20px;
+    padding: 20px 20px;
+    color: black;
+}

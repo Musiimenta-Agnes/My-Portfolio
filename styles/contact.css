@@ -3,13 +3,15 @@
     color: rgb(233, 236, 230);
     cursor: pointer;
     font-family: Georgia;
-    background-color: indigo;
-    width: 400px;
-    float: center;
+ margin-left: 600px;
+    width: 500px;
     border-radius: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-right: 20px;
+    
+    
+
 
 }
 input[type="text"],
@@ -35,6 +37,23 @@ input[type="email"] {
 #email:hover {
     color: rgb(234, 240, 240);
 }
-#image {
-    float: right;
+
+
+
+
+.social-icons {
+    margin-top: 15px;
 }
+.social-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: aqua;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+.social-icons a:hover {
+    color: #25d366; 
+}
+
+
+
